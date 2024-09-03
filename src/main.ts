@@ -2,7 +2,7 @@ import "./style.css";
 import appHtml from "./app.html?raw";
 import { isValidPassword, isValidUserName } from "./validation";
 
-document.querySelector<HTMLDivElement>("#app")!.innerHTML = appHtml;
+(<HTMLDivElement>document.querySelector("#app")).innerHTML = appHtml;
 
 document.getElementById("submit")?.addEventListener("click", () => {
 	const userName = (<HTMLInputElement>document.getElementById("userName"))
