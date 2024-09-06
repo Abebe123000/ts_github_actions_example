@@ -21,4 +21,5 @@ document.getElementById("submit")?.addEventListener("click", () => {
 	}
 	console.log({ userName, password });
 	alert("登録完了!");
+	// hoge
 });
