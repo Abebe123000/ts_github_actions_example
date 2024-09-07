@@ -1,4 +1,4 @@
-name: tsc_on_pull_request
+name: test_on_pull_request
 
 on:
   pull_request:
