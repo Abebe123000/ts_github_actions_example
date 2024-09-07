@@ -50,7 +50,7 @@ https://github.com/Abebe123000/ts_github_actions_example/blob/1c756fef484f04f03c
 
 本リポジトリでは GitHub Actions を用いてテストを継続的に実行する仕組みを作成しています。
 
-[test_on_pull_request.yml]https://github.com/Abebe123000/ts_github_actions_example/blob/master/.github/workflows/test_on_pull_request.yml) によって、プルリクエストのたびにテストが実行されます。
+[test_on_pull_request.yml](https://github.com/Abebe123000/ts_github_actions_example/blob/master/.github/workflows/test_on_pull_request.yml) によって、プルリクエストのたびにテストが実行されます。
 
 [こちらのプルリク](https://github.com/Abebe123000/ts_github_actions_example/pull/12) では修正ミスによって既存のバリデーション関数の挙動をうっかり変更してしまいました。
 
