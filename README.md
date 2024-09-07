@@ -52,6 +52,8 @@ https://github.com/Abebe123000/ts_github_actions_example/blob/1c756fef484f04f03c
 
 [test_on_pull_request.yml](https://github.com/Abebe123000/ts_github_actions_example/blob/master/.github/workflows/test_on_pull_request.yml) によって、プルリクエストのたびにテストが実行されます。
 
+これによって、実装したテストがパスしなくなる修正を行った際にすぐに気づくことができるようになります。
+
 [こちらのプルリク](https://github.com/Abebe123000/ts_github_actions_example/pull/12) では修正ミスによって既存のバリデーション関数の挙動をうっかり変更してしまいました。
 
 しかし、[自動的にテストが実行された結果](https://github.com/Abebe123000/ts_github_actions_example/actions/runs/10751728927/job/29819284472?pr=12) 、既存の関数が意図しない挙動をしていることにすぐに気づくことができました。
