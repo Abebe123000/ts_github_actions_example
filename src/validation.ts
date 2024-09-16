@@ -14,8 +14,5 @@ export const isValidUserName = (str: string): boolean => {
  * @returns true が OK
  */
 export const isValidPassword = (str: string): boolean => {
-	if (!/^[A-Za-z0-9]{8,64}$/.test(str)) {
-		return false;
-	}
-	return /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).+$/.test(str);
+	return /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z0-9]{8,64}$/.test(str);
 };
