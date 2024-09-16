@@ -53,7 +53,7 @@ https://github.com/Abebe123000/ts_github_actions_example/blob/1c756fef484f04f03c
 
 作成したテストコードを自動的に継続的に実施することで更に開発プロセスの効率化を狙えます。これは一般に [CI](https://aws.amazon.com/jp/devops/continuous-integration/) と呼ばれます。
 
-本リポジトリでは GitHub Actions を用いてテストを継続的に実行する仕組みを作成しています。
+本リポジトリでは [GitHub Actions](https://docs.github.com/ja/actions) を用いてテストを継続的に実行する仕組みを作成しています。
 
 [test_on_pull_request.yml](https://github.com/Abebe123000/ts_github_actions_example/blob/master/.github/workflows/test_on_pull_request.yml) によって、プルリクエストのたびにテストが実行されます。
 
