@@ -21,7 +21,12 @@
 [validation.test.ts](https://github.com/Abebe123000/ts_github_actions_example/blob/master/src/validation.test.ts) で各バリデーション関数の単体テストを実装しています。
 
 テストの実装には [Vitest](https://vitest.dev/) というライブラリを使用しています。
-コマンドラインで `npm run test` を実行することで実装した単体テストを実施できます。
+コマンドラインで以下コマンドを実行することで実装した単体テストを実施できます。
+
+```
+npm install
+npm run test
+```
 
 ## 単体テストコードの読み方
 
