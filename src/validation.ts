@@ -4,7 +4,8 @@
  * @returns true が OK
  */
 export const isValidUserName = (str: string): boolean => {
-	return /^[A-Za-z0-9]{1,64}$/.test(str);
+	// mistake!
+	return /^[A-Za-z0-9]{2,64}$/.test(str);
 };
 
 /**
