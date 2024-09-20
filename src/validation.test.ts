@@ -4,7 +4,9 @@ import { isValidPassword, isValidUserName } from "./validation";
 test("isValidUserName", () => {
 	// 文字列の長さ 1~64 文字
 	expect(isValidUserName("")).toBe(false);
-	expect(isValidUserName("1")).toBe(true);
+	expect(isValidUserName("1")).toBe(false);
+	expect(isValidUserName("1234567")).toBe(false);
+	expect(isValidUserName("12345678")).toBe(true);
 	expect(
 		isValidUserName(
 			"1234567891123456789212345678931234567894123456789512345678961234",
