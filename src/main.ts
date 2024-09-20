@@ -10,7 +10,7 @@ document.getElementById("submit")?.addEventListener("click", () => {
 	const password = (<HTMLInputElement>document.getElementById("password"))
 		.value;
 	if (!isValidUserName(userName)) {
-		alert("ユーザー名は半角英数字1~64文字で入力してください");
+		alert("ユーザー名は半角英数字8~64文字で入力してください");
 		return;
 	}
 	if (!isValidPassword(password)) {
